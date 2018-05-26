@@ -113,7 +113,7 @@ dove K $\sim$ Poisson ($\lambda$) e Xi $\sim$ Log$\mathcal{N}($\mu$, $\sigma$^2)
 	\item Sia  L \textbf{PERDITA:} per l’i-esimo event type all’interno della j-esima business line dell’impresa.
 \end{itemize}
 
-Per effettuare il calcolo di indicatori di rischio è necessario determinare o approssimare la distribuzione della variabile casuale perdita (L). Questo richiede di specificare in modo adeguato la famiglia di variabili casuali per il verificarsi di eventi nel tempo (k) e la distribuzione della severity. Nell’approfondimento assegnatoci, abbiamo ricevuto le distribuzioni di tali variabili non definendole partendo dai dati. La distribuzione data della variabile casuale K è una Poissoniana di parametro λ = 5. La distribuzione di severity è invece una Log-normale di parametri mu e sigma specificati per tre diversi casi.\\
+Per effettuare il calcolo di indicatori di rischio è necessario determinare o approssimare la distribuzione della variabile casuale perdita (L). Questo richiede di specificare in modo adeguato la famiglia di variabili casuali per il verificarsi di eventi nel tempo (k) e la distribuzione della severity. Nell’approfondimento assegnatoci, abbiamo ricevuto le distribuzioni di tali variabili non definendole partendo dai dati. La distribuzione data della variabile casuale K è una Poissoniana di parametro \lambda = 5. La distribuzione di severity è invece una Log-normale di parametri mu e sigma specificati per tre diversi casi.\\
 \begin{table}[htbp]
 \centering
 \begin{tabular}{l|r|r}
@@ -184,8 +184,8 @@ F(x)=
 	\caption{\label{fig:poissdistr.png}Funzione di densità di probabilità della distribuzione Lognormale}
 \end{figure}
 
- Un aspetto molto importante è la messa a punto di misure di rischio che sintetizzino il rischio di perdite operative e cioè l’incertezza della variabile casuale L. Tra le diverse misure di rischio abbiamo il VAR – Value at Risk. Il VAR si definisce come la massima perdita in un certo intervallo di tempo [t,T] con un dato livello di confidenza (1-α). In caso di variabile casuale continua è dato dal percentile (pari al livello di confidenza) della variabile casuale di perdita L:\\{$VAR=F-1(1-\alpha)
-$
+ Un aspetto molto importante è la messa a punto di misure di rischio che sintetizzino il rischio di perdite operative e cioè l’incertezza della variabile casuale L. Tra le diverse misure di rischio abbiamo il VAR – Value at Risk. Il VAR si definisce come la massima perdita in un certo intervallo di tempo [t,T] con un dato livello di confidenza (1-α). In caso di variabile casuale continua è dato dal percentile (pari al livello di confidenza) della variabile casuale di perdita L:\\
+ $VAR=F-1(1-\alpha)$
 
 
 \section{MODELLIZZAZIONE DELLA PERDITA E SIMULAZIONE MONTE CARLO}
@@ -476,14 +476,8 @@ Distribution Approach” presenta numerosi vantaggi, tra i quali:
 	\item 	L’approccio presuppone la stabilità del sistema, il modello è poco rappresentativo se il processo di rischio sottostante è fortemente dinamico. 
 \end{itemize}
 
-In riferimento al nostro approfondimento l’indicatore di rischio usato è il Var al 99\%. Il grosso limite del VaR è legato al fatto che si stima soltanto la massima perdita probabile per un determinato intervallo di confidenza, tralasciando così eventuali eventi estremi che invece sono quelli più rilevanti dal punto di vista delle perdite che essi possono causare. Per tale motivo si ha il rischio di considerare uguali, cioè caratterizzati dallo stesso VaR, distribuzioni di perdita che presentano un comportamento nelle code estremamente diverso. Per evitare di sottostimare le perdite eccedenti il VaR stesso, si può ricorrere al $Expected shortfall\alpha\%$ \\  Conditional Value at Risk dato dal valore atteso delle perdite che superano il Var
-$ES\alpha\%=E(L|L>VAR\alpha%)
-$.
-=======
-In riferimento al nostro approfondimento l’indicatore di rischio usato è il Var al 99\%. Il grosso limite del VaR è legato al fatto che si stima soltanto la massima perdita probabile per un determinato intervallo di confidenza, tralasciando così eventuali eventi estremi che invece sono quelli più rilevanti dal punto di vista delle perdite che essi possono causare. Per tale motivo si ha il rischio di considerare uguali, cioè caratterizzati dallo stesso VaR, distribuzioni di perdita che presentano un comportamento nelle code estremamente diverso. Per evitare di sottostimare le perdite eccedenti il VaR stesso, si può ricorrere al $Expected shortfall\alpha\%$ \\  Conditional Value at Risk dato dal valore atteso delle perdite che superano il Var
-$ES\alpha\%=E(L|L>VAR\alpha%)
-
-
+In riferimento al nostro approfondimento l’indicatore di rischio usato è il Var al 99%. Il grosso limite del VaR è legato al fatto che si stima soltanto la massima perdita probabile per un determinato intervallo di confidenza, tralasciando così eventuali eventi estremi che invece sono quelli più rilevanti dal punto di vista delle perdite che essi possono causare. Per tale motivo si ha il rischio di considerare uguali, cioè caratterizzati dallo stesso VaR, distribuzioni di perdita che presentano un comportamento nelle code estremamente diverso. Per evitare di sottostimare le perdite eccedenti il VaR stesso, si può ricorrere all’Expected Shortfall o  Conditional Value at Risk dato dal valore atteso delle perdite che superano il Var al livello di confidenza definito. Riportiamo di seguito la formula dell’Expected Shortfall:\\
+$$ES(\alpha)=E(Li|Li>VAR(\alpha))$$
 
 
 
