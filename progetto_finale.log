@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.20)  26 MAY 2018 22:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.20)  27 MAY 2018 00:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -550,6 +550,9 @@ LaTeX Warning: Label `fig:losss.png' multiply defined.
 
 
 LaTeX Warning: Label `pantieri:arte' multiply defined.
+
+
+LaTeX Warning: Label `fig:numeroeventi.png' multiply defined.
 
 
 LaTeX Warning: Label `pantieri:arte' multiply defined.
@@ -1356,51 +1359,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 371--372
 
  []
 
-[15 <./1VS2.jpg>] [16 <./1VS3.jpg> <./2VS3.jpg>] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 401--404
+[15 <./1VS2.jpg>] [16 <./1VS3.jpg> <./2VS3.jpg>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.398 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
 
  []
 
+[17]
 
-LaTeX Warning: File `CODE 1VS2.jpg' not found on input line 411.
+LaTeX Warning: File `CODE 1VS2.jpg' not found on input line 408.
 
 <CODE 1VS2.jpg, id=128, 562.1pt x 421.575pt>
 File: CODE 1VS2.jpg Graphic file (type jpg)
 <use CODE 1VS2.jpg>
-Package pdftex.def Info: CODE 1VS2.jpg  used on input line 411.
+Package pdftex.def Info: CODE 1VS2.jpg  used on input line 408.
 (pdftex.def)             Requested size: 276.00105pt x 206.99811pt.
 <CODE1VS3.jpg, id=129, 562.1pt x 421.575pt>
 File: CODE1VS3.jpg Graphic file (type jpg)
 <use CODE1VS3.jpg>
-Package pdftex.def Info: CODE1VS3.jpg  used on input line 418.
-(pdftex.def)             Requested size: 241.49895pt x 181.12575pt.
-File: CODE1VS3.jpg Graphic file (type jpg)
-<use CODE1VS3.jpg>
-Package pdftex.def Info: CODE1VS3.jpg  used on input line 420.
+Package pdftex.def Info: CODE1VS3.jpg  used on input line 414.
 (pdftex.def)             Requested size: 276.00105pt x 206.99811pt.
 <CODE2VS3.jpg, id=130, 562.1pt x 421.575pt>
 File: CODE2VS3.jpg Graphic file (type jpg)
 <use CODE2VS3.jpg>
-Package pdftex.def Info: CODE2VS3.jpg  used on input line 428.
+Package pdftex.def Info: CODE2VS3.jpg  used on input line 421.
 (pdftex.def)             Requested size: 276.00105pt x 206.99811pt.
 [18 <./CODE 1VS2.jpg>] [19 <./CODE1VS3.jpg>] [20 <./CODE2VS3.jpg>]
 <QQPLOT.jpg, id=140, 562.1pt x 421.575pt>
 File: QQPLOT.jpg Graphic file (type jpg)
 <use QQPLOT.jpg>
-Package pdftex.def Info: QQPLOT.jpg  used on input line 454.
+Package pdftex.def Info: QQPLOT.jpg  used on input line 447.
 (pdftex.def)             Requested size: 310.4979pt x 232.87045pt.
  [21]
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+
+ []
+
 [22 <./QQPLOT.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 465--466
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 466--467
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 467--468
 
  []
@@ -1411,12 +1434,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 468--469
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--474
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--475
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.473 I
+       n riferimento al nostro approfondimento l’indicatore di rischio usa...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
 
  []
 
@@ -1425,7 +1462,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 475--476
 
  []
 
-[23]
+
+LaTeX Warning: File `VAR VS ES.jpg' not found on input line 482.
+
+<VAR VS ES.jpg, id=147, 562.1pt x 421.575pt>
+File: VAR VS ES.jpg Graphic file (type jpg)
+<use VAR VS ES.jpg>
+Package pdftex.def Info: VAR VS ES.jpg  used on input line 482.
+(pdftex.def)             Requested size: 310.4979pt x 232.87045pt.
 ! Undefined control sequence.
 l.490 	\url
            {http://www.lorenzopantieri.net/LaTeX_files/ArteLaTeX.pdf}.
@@ -1936,16 +1980,16 @@ Overfull \hbox (237.97842pt too wide) in paragraph at lines 496--515
 versit[]degliStudidiPadova:ModelliProbabilistici:Linkweb \OT1/cmr/m/n/10 :
  []
 
-[24] (./progetto_finale.aux)
+[23] [24 <./VAR VS ES.jpg>] [25] (./progetto_finale.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15408 strings out of 492649
- 287679 string characters out of 6129622
- 342992 words of memory out of 5000000
- 18941 multiletter control sequences out of 15000+600000
+ 15413 strings out of 492649
+ 287757 string characters out of 6129622
+ 344991 words of memory out of 5000000
+ 18945 multiletter control sequences out of 15000+600000
  10396 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,12n,56p,1721b,586s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1967,10 +2011,10 @@ e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2018/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on progetto_finale.pdf (26 pages, 822335 bytes).
+Output written on progetto_finale.pdf (27 pages, 852654 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 132 compressed objects within 2 object streams
+ 208 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 

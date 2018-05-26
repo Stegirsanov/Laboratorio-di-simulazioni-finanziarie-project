@@ -394,11 +394,8 @@ Vediamo dunque uno schema per il calcolo del Capital at Risk aggregato per un’
 		3 & 602,1337 &163,1085&439,0252
 	\end{tabular}
 \end{table}
-<<<<<<< HEAD
-\newpage
-=======
+\\
 
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
 Portando l’attenzione ai risultati trovati, evidenziamo che:
 \\
 
@@ -414,11 +411,7 @@ Portando l’attenzione ai risultati trovati, evidenziamo che:
 	Analizzando il primo e il terzo caso, si nota che il CaR è sensibilmente superiore in quest’ultimo caso con una differenza pari a 242,566. L’aumento della media della distribuzione di severity comporta un incremento dell’impatto economico dei singoli eventi di perdita, che, se aggregati, portano a una distribuzione di perdita operativa su scala maggiore. Gli effetti si possono notare dal confronto delle code delle distribuzioni nei due casi, che sottolineano una differente pesantezza sugli stessi valori aggregati di perdite:
 \begin{figure}[htbp]
 	\centering
-<<<<<<< HEAD
-	\includegraphics[width=0.7\textwidth]{CODE1VS3.jpg}
-=======
 	\includegraphics[width=0.8\textwidth]{CODE1VS3.jpg}
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
 	\caption{\label{fig:CODE 1VS3.jpg}Code delle distribuzioni di perdita caso 1 e caso 3}
 \end{figure}
 
@@ -468,6 +461,7 @@ Distribution Approach” presenta numerosi vantaggi, tra i quali:
 	\item 	L’utilizzo di distribuzioni statistiche ben conosciute può aiutare il processo di calibrazione.  
 	\item 	Si tratta di modelli abbastanza flessibili e adattabili a nuovi business operativi, inoltre richiede una potenza computazionale limitata.
 \end{itemize}
+
 	 Tuttavia, l'approccio LDA presenta anche alcune limitazioni: 
 	\begin{itemize}
 	\item 	È un modello ad alta intensità di dati. Questo è forse il più grande problema del “Loss Distribution Approach”. Per applicare questo metodo in modo coerente in tutta l'organizzazione, è necessaria una serie di dati completa riguardante gli eventi di perdita.  
@@ -475,14 +469,20 @@ Distribution Approach” presenta numerosi vantaggi, tra i quali:
 	\item 	L’assunzione di indipendenza tra la distribuzione di frequency e quella di severity costituisce un grosso limite.  
 	\item 	L’approccio presuppone la stabilità del sistema, il modello è poco rappresentativo se il processo di rischio sottostante è fortemente dinamico. 
 \end{itemize}
+\\
+In riferimento al nostro approfondimento l’indicatore di rischio usato è il Var al 99\%. Il grosso limite del VaR è legato al fatto che si stima soltanto la massima perdita probabile per un determinato intervallo di confidenza, tralasciando così eventuali eventi estremi che invece sono quelli più rilevanti dal punto di vista delle perdite che essi possono causare. Per tale motivo si ha il rischio di considerare uguali, cioè caratterizzati dallo stesso VaR, distribuzioni di perdita che presentano un comportamento nelle code estremamente diverso. Per evitare di sottostimare le perdite eccedenti il VaR stesso, si può ricorrere all’Expected Shortfall o Conditional Value at Risk dato dal valore atteso delle perdite che superano il Var al livello di confidenza definito.\\Riportiamo di seguito la formula dell’Expected Shortfall:\\
 
-In riferimento al nostro approfondimento l’indicatore di rischio usato è il Var al 99%. Il grosso limite del VaR è legato al fatto che si stima soltanto la massima perdita probabile per un determinato intervallo di confidenza, tralasciando così eventuali eventi estremi che invece sono quelli più rilevanti dal punto di vista delle perdite che essi possono causare. Per tale motivo si ha il rischio di considerare uguali, cioè caratterizzati dallo stesso VaR, distribuzioni di perdita che presentano un comportamento nelle code estremamente diverso. Per evitare di sottostimare le perdite eccedenti il VaR stesso, si può ricorrere all’Expected Shortfall o  Conditional Value at Risk dato dal valore atteso delle perdite che superano il Var al livello di confidenza definito. Riportiamo di seguito la formula dell’Expected Shortfall:\\
-$$ES(\alpha)=E(Li|Li>VAR(\alpha))$$
+$$ES_\alpha=E(Li|Li>VAR_\alpha)$$\\
+$$ES^{MC}_\alpha=\sum_{Li>Var_\alpha} \frac{Li}{\#(Li>Var_\alpha)}$$
+\\
+L’ES è quindi una misura più parsimoniosa del rischio considerando la possibilità di eventuali eventi estremi oltre l’intervallo di confidenza considerato.
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.9\textwidth]{VAR VS ES.jpg}
+\caption{\label{fig:numeroeventi.png}Estratto dell'output della simulazione }
+\end{figure}
 
-
-
-\newpage
 \begin{thebibliography}{9}
 	\bibitem{pantieri:arte}
 	Pantieri, Lorenzo e Tommaso Gordini (2017),
