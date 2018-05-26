@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.20)  26 MAY 2018 12:31
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.20)  25 MAY 2018 12:32
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.20)  26 MAY 2018 22:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1296,67 +1292,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 371--372
 
  []
 
-<<<<<<< HEAD
 [15 <./1VS2.jpg>] [16 <./1VS3.jpg> <./2VS3.jpg>] [17]
-=======
-[15 <./1VS2.jpg>] [16 <./1VS3.jpg> <./2VS3.jpg>]
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
-Underfull \hbox (badness 10000) in paragraph at lines 398--400
+Underfull \hbox (badness 10000) in paragraph at lines 401--404
 
  []
 
-<<<<<<< HEAD
-=======
-[17]
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
 
-LaTeX Warning: File `CODE 1VS2.jpg' not found on input line 407.
+LaTeX Warning: File `CODE 1VS2.jpg' not found on input line 411.
 
 <CODE 1VS2.jpg, id=128, 562.1pt x 421.575pt>
 File: CODE 1VS2.jpg Graphic file (type jpg)
 <use CODE 1VS2.jpg>
-Package pdftex.def Info: CODE 1VS2.jpg  used on input line 407.
+Package pdftex.def Info: CODE 1VS2.jpg  used on input line 411.
 (pdftex.def)             Requested size: 276.00105pt x 206.99811pt.
 <CODE1VS3.jpg, id=129, 562.1pt x 421.575pt>
 File: CODE1VS3.jpg Graphic file (type jpg)
 <use CODE1VS3.jpg>
-Package pdftex.def Info: CODE1VS3.jpg  used on input line 413.
-<<<<<<< HEAD
+Package pdftex.def Info: CODE1VS3.jpg  used on input line 418.
 (pdftex.def)             Requested size: 241.49895pt x 181.12575pt.
-=======
+File: CODE1VS3.jpg Graphic file (type jpg)
+<use CODE1VS3.jpg>
+Package pdftex.def Info: CODE1VS3.jpg  used on input line 420.
 (pdftex.def)             Requested size: 276.00105pt x 206.99811pt.
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
 <CODE2VS3.jpg, id=130, 562.1pt x 421.575pt>
 File: CODE2VS3.jpg Graphic file (type jpg)
 <use CODE2VS3.jpg>
-Package pdftex.def Info: CODE2VS3.jpg  used on input line 420.
+Package pdftex.def Info: CODE2VS3.jpg  used on input line 428.
 (pdftex.def)             Requested size: 276.00105pt x 206.99811pt.
 [18 <./CODE 1VS2.jpg>] [19 <./CODE1VS3.jpg>] [20 <./CODE2VS3.jpg>]
 <QQPLOT.jpg, id=140, 562.1pt x 421.575pt>
 File: QQPLOT.jpg Graphic file (type jpg)
 <use QQPLOT.jpg>
-Package pdftex.def Info: QQPLOT.jpg  used on input line 446.
+Package pdftex.def Info: QQPLOT.jpg  used on input line 454.
 (pdftex.def)             Requested size: 310.4979pt x 232.87045pt.
  [21]
-Underfull \hbox (badness 10000) in paragraph at lines 457--458
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 458--459
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 459--460
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 460--461
-
- []
-
 [22 <./QQPLOT.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 465--466
 
@@ -1372,13 +1341,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 467--468
 
  []
 
-[23]
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--475
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.485 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[23] [24]
 ! Undefined control sequence.
-<<<<<<< HEAD
-l.482 	\url
-=======
-l.480 	\url
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.496 	\url
            {http://www.lorenzopantieri.net/LaTeX_files/ArteLaTeX.pdf}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1389,21 +1382,13 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-<<<<<<< HEAD
-l.482 	\url{http://www.lorenzopantieri.net/LaTeX_
-=======
-l.480 	\url{http://www.lorenzopantieri.net/LaTeX_
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.496 	\url{http://www.lorenzopantieri.net/LaTeX_
                                                  files/ArteLaTeX.pdf}.
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-<<<<<<< HEAD
-l.482 ...zopantieri.net/LaTeX_files/ArteLaTeX.pdf}
-=======
-l.480 ...zopantieri.net/LaTeX_files/ArteLaTeX.pdf}
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.496 ...zopantieri.net/LaTeX_files/ArteLaTeX.pdf}
                                                   .
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1418,11 +1403,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-<<<<<<< HEAD
-l.483 		\bibitem{pantieri:arte}
-=======
-l.481 		\bibitem{pantieri:arte}
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.497 		\bibitem{pantieri:arte}
                                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1434,11 +1415,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-<<<<<<< HEAD
-l.483 		\bibitem{pantieri:arte}
-=======
-l.481 		\bibitem{pantieri:arte}
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.497 		\bibitem{pantieri:arte}
                                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1450,21 +1427,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-<<<<<<< HEAD
-l.483 		\bibitem{pantieri:arte}
-=======
-l.481 		\bibitem{pantieri:arte}
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.497 		\bibitem{pantieri:arte}
                                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-<<<<<<< HEAD
-l.486 	\url
-=======
-l.484 	\url
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.500 	\url
            {http://www.lorenzopantieri.net/LaTeX_files/ArteLaTeX.pdf}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1479,11 +1448,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-<<<<<<< HEAD
-l.487 		\bibitem{pantieri:arte}
-=======
-l.485 		\bibitem{pantieri:arte}
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.501 		\bibitem{pantieri:arte}
                                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1491,11 +1456,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-<<<<<<< HEAD
-l.487 		\bibitem{pantieri:arte}
-=======
-l.485 		\bibitem{pantieri:arte}
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.501 		\bibitem{pantieri:arte}
                                
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1503,11 +1464,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-<<<<<<< HEAD
-l.487 		\bibitem{pantieri:arte}
-=======
-l.485 		\bibitem{pantieri:arte}
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.501 		\bibitem{pantieri:arte}
                                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1516,41 +1473,25 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 480--487
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 478--485
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Underfull \hbox (badness 10000) in paragraph at lines 494--501
 []\OT1/cmr/m/n/10 Pantieri, Lo-ren-zo e Tom-ma-so Gor-di-ni (2017),
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 480--487
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 478--485
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Underfull \hbox (badness 10000) in paragraph at lines 494--501
 \OT1/cmr/m/it/10 Loss Di-stri-bu-tion Ap-proach for ope-ra-tio-nal ri-sk\OT1/cm
 r/m/n/10 ,
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (633.06873pt too wide) in paragraph at lines 480--487
-=======
-Overfull \hbox (633.06873pt too wide) in paragraph at lines 478--485
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Overfull \hbox (633.06873pt too wide) in paragraph at lines 494--501
 \OT1/cmr/m/n/10 http://www.lorenzopantieri.net/LaTeX$[]\OML/cmm/m/it/10 iles=Ar
 teLaTeX:pdf:Pantieri; LorenzoeTommasoGordini\OT1/cmr/m/n/10 (2017)\OML/cmm/m/it
 /10 ; []; []:[][]$ 
  []
 
 ! Undefined control sequence.
-<<<<<<< HEAD
-l.490 	\url
-=======
-l.488 	\url
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.504 	\url
            {http://www.lorenzopantieri.net/LaTeX_files/ArteLaTeX.pdf}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1561,21 +1502,13 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-<<<<<<< HEAD
-l.490 	\url{http://www.lorenzopantieri.net/LaTeX_
-=======
-l.488 	\url{http://www.lorenzopantieri.net/LaTeX_
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.504 	\url{http://www.lorenzopantieri.net/LaTeX_
                                                  files/ArteLaTeX.pdf}.
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-<<<<<<< HEAD
-l.490 ...zopantieri.net/LaTeX_files/ArteLaTeX.pdf}
-=======
-l.488 ...zopantieri.net/LaTeX_files/ArteLaTeX.pdf}
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.504 ...zopantieri.net/LaTeX_files/ArteLaTeX.pdf}
                                                   .
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1590,11 +1523,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-<<<<<<< HEAD
-l.491 		\bibitem{pantieri:arte}
-=======
-l.489 		\bibitem{pantieri:arte}
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.505 		\bibitem{pantieri:arte}
                                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1606,11 +1535,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-<<<<<<< HEAD
-l.491 		\bibitem{pantieri:arte}
-=======
-l.489 		\bibitem{pantieri:arte}
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.505 		\bibitem{pantieri:arte}
                                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1622,21 +1547,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-<<<<<<< HEAD
-l.491 		\bibitem{pantieri:arte}
-=======
-l.489 		\bibitem{pantieri:arte}
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.505 		\bibitem{pantieri:arte}
                                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-<<<<<<< HEAD
-l.494 	\url
-=======
-l.492 	\url
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.508 	\url
            {http://www.lorenzopantieri.net/LaTeX_files/ArteLaTeX.pdf}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1645,11 +1562,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Misplaced alignment tab character &.
-<<<<<<< HEAD
-l.495 ...perational risk, A. Frachot, P. Georges &
-=======
-l.493 ...perational risk, A. Frachot, P. Georges &
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.509 ...perational risk, A. Frachot, P. Georges &
                                                    T. Roncalliy, Groupe de R...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1661,11 +1574,7 @@ might try typing `S' now just to see what is salvageable.
 ! Missing number, treated as zero.
 <to be read again> 
                    W
-<<<<<<< HEAD
-l.497 ...ley Series in Probability and Statistics]
-=======
-l.495 ...ley Series in Probability and Statistics]
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.511 ...ley Series in Probability and Statistics]
                                                    Klugman, S.A. and Panjer,...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1674,11 +1583,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    W
-<<<<<<< HEAD
-l.497 ...ley Series in Probability and Statistics]
-=======
-l.495 ...ley Series in Probability and Statistics]
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.511 ...ley Series in Probability and Statistics]
                                                    Klugman, S.A. and Panjer,...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1688,32 +1593,18 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-<<<<<<< HEAD
-LaTeX Warning: Command \textendash invalid in math mode on input line 497.
+LaTeX Warning: Command \textendash invalid in math mode on input line 511.
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 499.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 513.
 
 
-LaTeX Warning: Command \` invalid in math mode on input line 499.
-=======
-LaTeX Warning: Command \textendash invalid in math mode on input line 495.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 497.
-
-
-LaTeX Warning: Command \` invalid in math mode on input line 497.
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+LaTeX Warning: Command \` invalid in math mode on input line 513.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-<<<<<<< HEAD
-l.499 ...fessor Michele Bonollo dell’Università
-=======
-l.497 ...fessor Michele Bonollo dell’Università
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.513 ...fessor Michele Bonollo dell’Università
                                                    degli Studi di Padova sul...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -1721,11 +1612,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-<<<<<<< HEAD
-l.499 ...fessor Michele Bonollo dell’Università
-=======
-l.497 ...fessor Michele Bonollo dell’Università
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.513 ...fessor Michele Bonollo dell’Università
                                                    degli Studi di Padova sul...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1733,26 +1620,15 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-<<<<<<< HEAD
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 501.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 515.
 
 
-LaTeX Warning: Command \` invalid in math mode on input line 501.
-=======
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 499.
-
-
-LaTeX Warning: Command \` invalid in math mode on input line 499.
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+LaTeX Warning: Command \` invalid in math mode on input line 515.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-<<<<<<< HEAD
-l.501 ...essoressa Simona Cosma dell’Università
-=======
-l.499 ...essoressa Simona Cosma dell’Università
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.515 ...essoressa Simona Cosma dell’Università
                                                    del Salento sul tema: Il ...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -1760,11 +1636,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-<<<<<<< HEAD
-l.501 ...essoressa Simona Cosma dell’Università
-=======
-l.499 ...essoressa Simona Cosma dell’Università
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.515 ...essoressa Simona Cosma dell’Università
                                                    del Salento sul tema: Il ...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1772,20 +1644,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-<<<<<<< HEAD
-LaTeX Warning: Command \` invalid in math mode on input line 502.
-=======
-LaTeX Warning: Command \` invalid in math mode on input line 500.
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+LaTeX Warning: Command \` invalid in math mode on input line 516.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-<<<<<<< HEAD
-l.502 	Lezione n. 5. - 28/3/03. Università
-=======
-l.500 	Lezione n. 5. - 28/3/03. Università
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.516 	Lezione n. 5. - 28/3/03. Università
                                             degli Studi di Roma Tre, sezione...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -1793,11 +1657,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-<<<<<<< HEAD
-l.502 	Lezione n. 5. - 28/3/03. Università
-=======
-l.500 	Lezione n. 5. - 28/3/03. Università
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.516 	Lezione n. 5. - 28/3/03. Università
                                             degli Studi di Roma Tre, sezione...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1805,26 +1665,15 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-<<<<<<< HEAD
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 504.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 518.
 
 
-LaTeX Warning: Command \` invalid in math mode on input line 504.
-=======
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 502.
-
-
-LaTeX Warning: Command \` invalid in math mode on input line 502.
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+LaTeX Warning: Command \` invalid in math mode on input line 518.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-<<<<<<< HEAD
-l.504 ...Economia e Finanza presso l’Università
-=======
-l.502 ...Economia e Finanza presso l’Università
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.518 ...Economia e Finanza presso l’Università
                                                    Ca’ Foscari di Venezia....
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -1832,11 +1681,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-<<<<<<< HEAD
-l.504 ...Economia e Finanza presso l’Università
-=======
-l.502 ...Economia e Finanza presso l’Università
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.518 ...Economia e Finanza presso l’Università
                                                    Ca’ Foscari di Venezia....
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1844,38 +1689,21 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-<<<<<<< HEAD
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 504.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 518.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 504.
+LaTeX Warning: Command \textendash invalid in math mode on input line 518.
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 505.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 519.
 
 
-LaTeX Warning: Command \` invalid in math mode on input line 505.
-=======
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 502.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 502.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 503.
-
-
-LaTeX Warning: Command \` invalid in math mode on input line 503.
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+LaTeX Warning: Command \` invalid in math mode on input line 519.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-<<<<<<< HEAD
-l.505 ...of.sa Damiana Costanzo dell’Università
-=======
-l.503 ...of.sa Damiana Costanzo dell’Università
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.519 ...of.sa Damiana Costanzo dell’Università
                                                    degli Studi della Calabri...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -1883,11 +1711,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-<<<<<<< HEAD
-l.505 ...of.sa Damiana Costanzo dell’Università
-=======
-l.503 ...of.sa Damiana Costanzo dell’Università
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.519 ...of.sa Damiana Costanzo dell’Università
                                                    degli Studi della Calabri...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1895,20 +1719,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-<<<<<<< HEAD
-LaTeX Warning: Command \` invalid in math mode on input line 506.
-=======
-LaTeX Warning: Command \` invalid in math mode on input line 504.
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+LaTeX Warning: Command \` invalid in math mode on input line 520.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-<<<<<<< HEAD
-l.506 ... laurea in Ingegneria Civile, Università
-=======
-l.504 ... laurea in Ingegneria Civile, Università
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.520 ... laurea in Ingegneria Civile, Università
                                                    degli Studi di Padova. Mo...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -1916,11 +1732,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-<<<<<<< HEAD
-l.506 ... laurea in Ingegneria Civile, Università
-=======
-l.504 ... laurea in Ingegneria Civile, Università
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.520 ... laurea in Ingegneria Civile, Università
                                                    degli Studi di Padova. Mo...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1930,11 +1742,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-<<<<<<< HEAD
-l.507 	
-=======
-l.505 	
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.521 	
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1942,11 +1750,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-<<<<<<< HEAD
-l.507 	
-=======
-l.505 	
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+l.521 	
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1961,30 +1765,18 @@ Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 488--507
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 486--505
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Underfull \hbox (badness 10000) in paragraph at lines 502--521
 []\OT1/cmr/m/n/10 Pantieri, Lo-ren-zo e Tom-ma-so Gor-di-ni (2017),
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 488--507
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 486--505
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Underfull \hbox (badness 10000) in paragraph at lines 502--521
 \OT1/cmr/m/it/10 Loss Di-stri-bu-tion Ap-proach for ope-ra-tio-nal ri-sk\OT1/cm
 r/m/n/10 ,
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (1267.27997pt too wide) in paragraph at lines 488--507
-=======
-Overfull \hbox (1267.27997pt too wide) in paragraph at lines 486--505
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Overfull \hbox (1267.27997pt too wide) in paragraph at lines 502--521
 \OT1/cmr/m/n/10 http://www.lorenzopantieri.net/LaTeX$[]\OML/cmm/m/it/10 iles=Ar
 teLaTeX:pdf:Pantieri; LorenzoeTommasoGordini\OT1/cmr/m/n/10 (2017)\OML/cmm/m/it
 /10 ; []; []:LossDistributionApproachforoperationalrisk; A:Frachot; P:GeorgesT:
@@ -1992,61 +1784,37 @@ Roncalliy; GroupedeRechercheOperationnelle; CreditLyonnais; France
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (71.02924pt too wide) in paragraph at lines 488--507
-=======
-Overfull \hbox (71.02924pt too wide) in paragraph at lines 486--505
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Overfull \hbox (71.02924pt too wide) in paragraph at lines 502--521
 \OML/cmm/m/it/10 Klugman; S:A:andPanjer; H:H:andWilmt; G:E:\OT1/cmr/m/n/10 {\OM
 L/cmm/m/it/10 LossModels[]romDatatoDesicions; \OT1/cmr/m/n/10 2012[] 
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (89.03822pt too wide) in paragraph at lines 488--507
-=======
-Overfull \hbox (89.03822pt too wide) in paragraph at lines 486--505
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Overfull \hbox (89.03822pt too wide) in paragraph at lines 502--521
 \OML/cmm/m/it/10 PresentazionePPTdelProfessorMicheleBonollodell[]Universit[]deg
 liStudidiPadovasultema \OT1/cmr/m/n/10 :
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (22.9356pt too wide) in paragraph at lines 488--507
-=======
-Overfull \hbox (22.9356pt too wide) in paragraph at lines 486--505
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Overfull \hbox (22.9356pt too wide) in paragraph at lines 502--521
 \OML/cmm/m/it/10 RischiOperativieBasilea\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :Mode
 lli; metodieproblematicheapplicative:Linkweb \OT1/cmr/m/n/10 :
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (70.27834pt too wide) in paragraph at lines 488--507
-=======
-Overfull \hbox (70.27834pt too wide) in paragraph at lines 486--505
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Overfull \hbox (70.27834pt too wide) in paragraph at lines 502--521
 \OML/cmm/m/it/10 PresentazionePPTdellaProfessoressaSimonaCosmadell[]Universit[]
 delSalentosultema \OT1/cmr/m/n/10 :
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (36.73051pt too wide) in paragraph at lines 488--507
-=======
-Overfull \hbox (36.73051pt too wide) in paragraph at lines 486--505
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Overfull \hbox (36.73051pt too wide) in paragraph at lines 502--521
 \OML/cmm/m/it/10 IlcalcolodelVARoperativomediantelametodologiastocasticaparamet
 rica:Linkweb \OT1/cmr/m/n/10 :
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 488--507
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 486--505
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Underfull \hbox (badness 10000) in paragraph at lines 502--521
 \OML/cmm/m/it/10 http \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 ==docplayer:it=\OT1/cm
 r/m/n/10 35191968 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 Il \OMS/cmsy/m/n/10 ^^@
  \OML/cmm/m/it/10 calcolo \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 del \OMS/cmsy/m
@@ -2054,101 +1822,65 @@ r/m/n/10 35191968 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 Il \OMS/cmsy/m/n/10 ^^@
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 488--507
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 486--505
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Underfull \hbox (badness 10000) in paragraph at lines 502--521
 \OML/cmm/m/it/10 var \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 operativo \OMS/cmsy/
 m/n/10 ^^@ \OML/cmm/m/it/10 mediante \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 la \
 OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 metodologia \OMS/cmsy/m/n/10 ^^@
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 488--507
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 486--505
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Underfull \hbox (badness 10000) in paragraph at lines 502--521
 \OML/cmm/m/it/10 stocastica \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 parametrica \
 OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 simona \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/
 10 cosma:htmlLezionen:\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 : \OMS/cmsy/m/n/10 ^^@
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (165.88196pt too wide) in paragraph at lines 488--507
-=======
-Overfull \hbox (165.88196pt too wide) in paragraph at lines 486--505
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Overfull \hbox (165.88196pt too wide) in paragraph at lines 502--521
 \OT1/cmr/m/n/10 28\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 =\OT1/cmr
 /m/n/10 03\OML/cmm/m/it/10 :Universit[]degliStudidiRomaTre; sezionediMatematica
 :DipartimentodiMatematicaeFisica:Linkweb \OT1/cmr/m/n/10 :
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 488--507
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 486--505
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Underfull \hbox (badness 10000) in paragraph at lines 502--521
 \OML/cmm/m/it/10 EconomiaeFinanzapressol[]Universit[]Ca[]FoscaridiVenezia:Relat
 ore \OT1/cmr/m/n/10 :
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 488--507
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 486--505
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Underfull \hbox (badness 10000) in paragraph at lines 502--521
 \OML/cmm/m/it/10 prof:AndreaGiacomelli:Annoaccademico\OT1/cmr/m/n/10 2014{2015\
 OML/cmm/m/it/10 :Titolodellatesi \OT1/cmr/m/n/10 :
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 488--507
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 486--505
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Underfull \hbox (badness 10000) in paragraph at lines 502--521
 \OML/cmm/m/it/10 http \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 ==dspace:unive:it=bits
 tream=handle=\OT1/cmr/m/n/10 10579\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 6862\OML/cm
 m/m/it/10 =\OT1/cmr/m/n/10 832502 \OMS/cmsy/m/n/10 ^^@
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (240.43222pt too wide) in paragraph at lines 488--507
-=======
-Overfull \hbox (240.43222pt too wide) in paragraph at lines 486--505
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Overfull \hbox (240.43222pt too wide) in paragraph at lines 502--521
 \OT1/cmr/m/n/10 1190252\OML/cmm/m/it/10 :pdf\OT1/cmr/m/n/10 ?\OML/cmm/m/it/10 s
 equence \OT1/cmr/m/n/10 = 2\OML/cmm/m/it/10 :PresentazionePPTdellaProf:saDamian
 aCostanzodell[]Universit[]degliStudidellaCalabria:Linkweb \OT1/cmr/m/n/10 :
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (92.22028pt too wide) in paragraph at lines 488--507
-=======
-Overfull \hbox (92.22028pt too wide) in paragraph at lines 486--505
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Overfull \hbox (92.22028pt too wide) in paragraph at lines 502--521
 \OML/cmm/m/it/10 http \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 ==www:ecostat:unical:i
 t=Costanzo=Didattica=ProbabilitPresentazionePPTdelDocente \OT1/cmr/m/n/10 :
  []
 
 
-<<<<<<< HEAD
-Overfull \hbox (237.97842pt too wide) in paragraph at lines 488--507
-=======
-Overfull \hbox (237.97842pt too wide) in paragraph at lines 486--505
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Overfull \hbox (237.97842pt too wide) in paragraph at lines 502--521
 \OML/cmm/m/it/10 Dott:L:CoraininsegnantedelCorsodilaureainIngegneriaCivile; Uni
 versit[]degliStudidiPadova:ModelliProbabilistici:Linkweb \OT1/cmr/m/n/10 :
  []
 
-[24] (./progetto_finale.aux)
+[25] (./progetto_finale.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2183,14 +1915,10 @@ l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-<<<<<<< HEAD
-Output written on progetto_finale.pdf (26 pages, 822663 bytes).
-=======
-Output written on progetto_finale.pdf (26 pages, 822637 bytes).
->>>>>>> 83ab373b228d84d087eacadb787d5f8500e09f6c
+Output written on progetto_finale.pdf (27 pages, 824217 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 132 compressed objects within 2 object streams
+ 207 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  98 words of extra memory for PDF output out of 10000 (max. 10000000)
 
